@@ -1,0 +1,18 @@
+{
+    "@context": [
+        "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic"
+    ],
+    "@type": "reproschema:Field",
+    "@id": "dcpho047b",
+    "ui": {
+        "allow": [
+            "dontKnow"
+        ],
+        "inputType": "text"
+    },
+    "question": "### Worst Fear 1\r\n\r\nExample 2 (Things):",
+    "schema:description": "EXAMPLE",
+    "responseOptions": {
+        "requiredValue": ""
+    }
+}

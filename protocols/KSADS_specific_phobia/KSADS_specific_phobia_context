@@ -1,0 +1,10 @@
+{
+    "@context": {
+        "@version": 1.1,
+        "activity_path": "https://raw.githubusercontent.com/hotavocado/KSADS-specific_phobia/master/activities/",
+        "specific_phobia": {
+            "@id": "activity_path:specific_phobia/specific_phobia_schema",
+            "@type": "@id"
+        }
+    }
+}

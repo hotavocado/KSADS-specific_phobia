@@ -1,0 +1,26 @@
+{
+    "@context": [
+        "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic",
+        "https://raw.githubusercontent.com/hotavocado/KSADS-specific_phobia/master/protocols/KSADS_specific_phobia/KSADS_specific_phobia_context"
+    ],
+    "@type": "reproschema:Protocol",
+    "@id": "KSADS_specific_phobia_schema",
+    "skos:prefLabel": "Specific Phobia",
+    "schema:description": "Specific Phobia section for KSADS interview",
+    "landingPage": "https://raw.githubusercontent.com/hotavocado/KSADS-specific_phobia/master/protocols/KSADS_specific_phobia/README.md",
+    "schema:schemaVersion": "0.0.1",
+    "schema:version": "0.0.1",
+    "ui": {
+        "addProperties": [
+            {
+                "variableName": "specific_phobia",
+                "isAbout": "specific_phobia",
+                "isVis": true
+            }
+        ],
+        "order": [
+            "specific_phobia"
+        ],
+        "shuffle": false
+    }
+}
